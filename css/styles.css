@@ -1,0 +1,183 @@
+:root {
+  --main-text-color: #757575;
+  --title-color: #212121;
+  --dark-bg-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --dark-bg-color: #2f303a;
+  --second-bg-color: #f5f4fa;
+  --logo-color: #000000;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.link,
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.nav-link,
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+/*Страница Студия*/
+
+.dark-bg,
+.dark-bg .logo {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-bg-text-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--dark-bg-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.benefits-list {
+  font-size: 14px;
+}
+
+.benefits-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.team {
+  background-color: var(--second-bg-color);
+}
+
+.team-list {
+  text-align: center;
+  line-height: 1.19;
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--title-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/*Страница Портфолио*/
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--second-bg-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--dark-bg-text-color);
+  background-color: var(--accent-color);
+}
+
+.work-examples-list {
+  line-height: 1.86;
+}
+
+.example-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
